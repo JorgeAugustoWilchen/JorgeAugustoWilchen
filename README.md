@@ -55,6 +55,12 @@ Although not my main focus, I have experience working with the following technol
 ![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white)
 ![Network Structure](https://img.shields.io/badge/Network_Structure-0081A7?style=for-the-badge&logo=network&logoColor=white)
 
+## 📊 GitHub Stats  
+<div align="center" style="flex">
+  <img src="https://github-readme-stats.vercel.app/api?username=JorgeAugustoWilchen&show_icons=true&count_private=true&hide_border=true&theme=dracula" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=JorgeAugustoWilchen&layout=compact&hide_border=true&theme=dracula"/>
+</div>
+
 ## 🌐 Contact
 - LinkedIn: [Jorge Augusto Wilchen](https://www.linkedin.com/in/jorge-augusto-wilchen-482753214/)
 - E-mail: jorgeaugustowilchen@hotmail.com
