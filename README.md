@@ -61,6 +61,9 @@ Although not my main focus, I have experience working with the following technol
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=JorgeAugustoWilchen&layout=compact&hide_border=true&theme=dracula"/>
 </div>
 
+### 🏆 Codewars Stats  
+![Codewars](https://www.codewars.com/users/EndPlay_007/badges/small)
+
 ## 🌐 Contact
 - LinkedIn: [Jorge Augusto Wilchen](https://www.linkedin.com/in/jorge-augusto-wilchen-482753214/)
 - E-mail: jorgeaugustowilchen@hotmail.com
