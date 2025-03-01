@@ -59,8 +59,6 @@ Although not my main focus, I have experience working with the following technol
 <div align="center" style="flex">
   <img src="./github-stats.svg" alt="GitHub Stats" />
   <img src="./github-langs.svg" alt="Most Used Languages" />
-
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=JorgeAugustoWilchen&layout=compact&hide_border=true&theme=dracula&count_private=true&cache_seconds=3600" />
 </div>
 
 ### 🏆 Codewars Stats  
