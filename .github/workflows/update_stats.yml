@@ -8,18 +8,25 @@ on:
 jobs:
   update-readme:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Permite commits no repositório
     steps:
       - name: Checkout do repositório
         uses: actions/checkout@v3
+        with:
+          persist-credentials: false  # Evita conflitos de credenciais
+
+      - name: Configurar credenciais do Git
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
 
       - name: Atualizar GitHub Stats
         run: |
           curl -o github-stats.svg "https://github-readme-stats.vercel.app/api?username=JorgeAugustoWilchen&show_icons=true&count_private=true&theme=dracula&token=${{ secrets.GH_STATS_TOKEN }}"
-      
-      - name: Commit and Push changes
+
+      - name: Commit e Push das Mudanças
         run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
           git add github-stats.svg
           git commit -m "Atualizar GitHub Stats" || echo "Nenhuma mudança para commit"
           git push https://x-access-token:${{ secrets.GH_STATS_TOKEN }}@github.com/JorgeAugustoWilchen/JorgeAugustoWilchen.git
