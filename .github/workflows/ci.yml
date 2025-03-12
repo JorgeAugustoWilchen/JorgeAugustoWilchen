@@ -30,13 +30,13 @@ jobs:
         npx github-langs --output ./github-langs.svg
 
     - name: Upload GitHub Stats
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: github-stats
         path: ./github-stats.svg
 
     - name: Upload GitHub Langs
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: github-langs
         path: ./github-langs.svg
