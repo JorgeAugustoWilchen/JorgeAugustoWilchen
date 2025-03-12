@@ -26,7 +26,17 @@ jobs:
 
     - name: Generate GitHub stats
       run: |
-        # Comandos para gerar github-stats.svg e github-langs.svg
-        # Exemplo:
-        # npx github-stats --output ./github-stats.svg
-        # npx github-langs --output ./github-langs.svg
+        npx github-stats --output ./github-stats.svg
+        npx github-langs --output ./github-langs.svg
+
+    - name: Upload GitHub Stats
+      uses: actions/upload-artifact@v2
+      with:
+        name: github-stats
+        path: ./github-stats.svg
+
+    - name: Upload GitHub Langs
+      uses: actions/upload-artifact@v2
+      with:
+        name: github-langs
+        path: ./github-langs.svg
