@@ -30,5 +30,6 @@ jobs:
       - name: Commit e Push das Mudanças
         run: |
           git add github-stats.svg
+          git add github-langs.svg
           git commit -m "Atualizar GitHub Stats" || echo "Nenhuma mudança para commit"
           git push https://x-access-token:${{ secrets.GH_STATS_TOKEN }}@github.com/JorgeAugustoWilchen/JorgeAugustoWilchen.git
